@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "folder": "Lineare Algebra",
+  "decks": [
+    {
+      "title": "01 · Vektorräume",
+      "cards": [
+        { "question": "Welche drei Bedingungen prüfst du für einen Untervektorraum?", "answer": "1. Der Nullvektor ist enthalten.\n2. Abgeschlossenheit unter Addition.\n3. Abgeschlossenheit unter skalarer Multiplikation." },
+        { "question": "Ist die Menge {(x, y) | y = −2x} ein Untervektorraum von R²? Begründe.", "answer": "Ja. Der Nullvektor liegt in der Menge. Für zwei Elemente bleibt die Bedingung y = −2x bei Addition erhalten, ebenso bei Multiplikation mit einem beliebigen Skalar." }
+      ]
+    },
+    {
+      "title": "02 · Basis und Dimension",
+      "cards": [
+        { "question": "Was ist eine Basis eines Vektorraums?", "answer": "Ein linear unabhängiges Erzeugendensystem: Jeder Vektor des Raums lässt sich eindeutig als Linearkombination der Basisvektoren darstellen." },
+        { "question": "Welche Dimension hat R³?", "answer": "Die Dimension ist 3. Jede Basis von R³ besteht aus genau drei Vektoren." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071DBE900139FC748A2AD2A7 /* StudyApp/StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524699644A17C22E626B936F /* StudyApp/StudyApp.swift */; };
+		09C81BF54E897F394C95158D /* StudyApp/Views/Editors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAF694369810392F8B0221 /* StudyApp/Views/Editors.swift */; };
+		24A400D407FC758307CEEE6D /* StudyApp/Core/AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF2E30D5D14A34B8AFD6C6 /* StudyApp/Core/AppStore.swift */; };
+		2DA00937490C8FDE06081035 /* StudyApp/Core/SupabaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19995E91D1AAB72D78504C75 /* StudyApp/Core/SupabaseAPI.swift */; };
+		333B7B95E6439C3560FF0D56 /* StudyApp/Views/LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA93E2612CDA12346D53AC /* StudyApp/Views/LibraryView.swift */; };
+		4FB665958869593D683AB37D /* StudyApp/Core/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C71820B957F0B7B420E47D /* StudyApp/Core/Models.swift */; };
+		A0C88C2B7E79BE13059BB49B /* StudyApp/Views/ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC73E1AAA39BAF6193D252B /* StudyApp/Views/ImportView.swift */; };
+		D40FC6E19F85A60FE23B6C4C /* StudyApp/Views/StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D344B13F1125D14B62C2C2 /* StudyApp/Views/StudyView.swift */; };
+		F5AF029E632450D5CCF790F7 /* StudyApp/Views/AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5599F4AE1236D46A093385 /* StudyApp/Views/AuthView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19995E91D1AAB72D78504C75 /* StudyApp/Core/SupabaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/Core/SupabaseAPI.swift; sourceTree = SOURCE_ROOT; };
+		1B5599F4AE1236D46A093385 /* StudyApp/Views/AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/Views/AuthView.swift; sourceTree = SOURCE_ROOT; };
+		22631472F342DB007B044DC6 /* StudyApp/Configuration/Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StudyApp/Configuration/Config.xcconfig; sourceTree = SOURCE_ROOT; };
+		38A007151ABE87CC01A5B6E9 /* StudyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = StudyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524699644A17C22E626B936F /* StudyApp/StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/StudyApp.swift; sourceTree = SOURCE_ROOT; };
+		5FC73E1AAA39BAF6193D252B /* StudyApp/Views/ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/Views/ImportView.swift; sourceTree = SOURCE_ROOT; };
+		68AF2E30D5D14A34B8AFD6C6 /* StudyApp/Core/AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/Core/AppStore.swift; sourceTree = SOURCE_ROOT; };
+		96D344B13F1125D14B62C2C2 /* StudyApp/Views/StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/Views/StudyView.swift; sourceTree = SOURCE_ROOT; };
+		BBBAF694369810392F8B0221 /* StudyApp/Views/Editors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/Views/Editors.swift; sourceTree = SOURCE_ROOT; };
+		BFFA93E2612CDA12346D53AC /* StudyApp/Views/LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/Views/LibraryView.swift; sourceTree = SOURCE_ROOT; };
+		E2C71820B957F0B7B420E47D /* StudyApp/Core/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp/Core/Models.swift; sourceTree = SOURCE_ROOT; };
+		E9C3B46F73A440B45990F0CA /* StudyApp/Configuration/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StudyApp/Configuration/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				68AF2E30D5D14A34B8AFD6C6 /* StudyApp/Core/AppStore.swift */,
+				E2C71820B957F0B7B420E47D /* StudyApp/Core/Models.swift */,
+				19995E91D1AAB72D78504C75 /* StudyApp/Core/SupabaseAPI.swift */,
+				524699644A17C22E626B936F /* StudyApp/StudyApp.swift */,
+				1B5599F4AE1236D46A093385 /* StudyApp/Views/AuthView.swift */,
+				BBBAF694369810392F8B0221 /* StudyApp/Views/Editors.swift */,
+				5FC73E1AAA39BAF6193D252B /* StudyApp/Views/ImportView.swift */,
+				BFFA93E2612CDA12346D53AC /* StudyApp/Views/LibraryView.swift */,
+				96D344B13F1125D14B62C2C2 /* StudyApp/Views/StudyView.swift */,
+				22631472F342DB007B044DC6 /* StudyApp/Configuration/Config.xcconfig */,
+				E9C3B46F73A440B45990F0CA /* StudyApp/Configuration/Info.plist */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* StudyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* StudyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976B52545947CA66FD9EF2A4 /* Build configuration list for PBXNativeTarget "StudyApp" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyApp;
+			productName = StudyApp;
+			productReference = 38A007151ABE87CC01A5B6E9 /* StudyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = 640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "StudyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* StudyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A400D407FC758307CEEE6D /* StudyApp/Core/AppStore.swift in Sources */,
+				4FB665958869593D683AB37D /* StudyApp/Core/Models.swift in Sources */,
+				2DA00937490C8FDE06081035 /* StudyApp/Core/SupabaseAPI.swift in Sources */,
+				071DBE900139FC748A2AD2A7 /* StudyApp/StudyApp.swift in Sources */,
+				F5AF029E632450D5CCF790F7 /* StudyApp/Views/AuthView.swift in Sources */,
+				09C81BF54E897F394C95158D /* StudyApp/Views/Editors.swift in Sources */,
+				A0C88C2B7E79BE13059BB49B /* StudyApp/Views/ImportView.swift in Sources */,
+				333B7B95E6439C3560FF0D56 /* StudyApp/Views/LibraryView.swift in Sources */,
+				D40FC6E19F85A60FE23B6C4C /* StudyApp/Views/StudyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00F209874A1F7309F6DCEAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1A6EFC2CD0AF63DD14BE0438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22631472F342DB007B044DC6 /* StudyApp/Configuration/Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7252MDVCZ3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StudyApp/Configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.elian.studyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D8F54E7CBAF670D9F6C230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22631472F342DB007B044DC6 /* StudyApp/Configuration/Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7252MDVCZ3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StudyApp/Configuration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.elian.studyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8772ADEC3A6C25161BC957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "StudyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8772ADEC3A6C25161BC957 /* Debug */,
+				00F209874A1F7309F6DCEAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976B52545947CA66FD9EF2A4 /* Build configuration list for PBXNativeTarget "StudyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8F54E7CBAF670D9F6C230D /* Debug */,
+				1A6EFC2CD0AF63DD14BE0438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
